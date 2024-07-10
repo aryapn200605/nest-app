@@ -2,7 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 import { karyawanStatus } from './karyawan-status.enum';
 
 @Entity()
-export class Pinjam {
+export class Karyawan {
   @PrimaryGeneratedColumn()
   id: number;
 
